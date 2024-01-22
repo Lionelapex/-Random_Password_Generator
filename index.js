@@ -1,7 +1,7 @@
 // query the elements
 const generateButton= document.querySelector('button.btn')
 const displayPasswordField=document.querySelector('div.showpassword')
-
+const show=document.querySelector('div.showpassword')
 
 // lists 
 const random_adjectives=[
@@ -429,11 +429,11 @@ const punctuation=getRandomPunctuationChar()
 console.log(punctuation)
 
 // password created
-const password= adjective+ color+noun+number+punctuation
-console.log(password)
+const password= `${adjective} ${color} ${noun}${number}${punctuation}`
+
 
 // password appended
-    displayPasswordField.innerHTML=`<h3>${password}</h3>`
+    displayPasswordField.innerHTML=`${password}`
     
 
 })

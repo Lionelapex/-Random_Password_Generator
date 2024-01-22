@@ -59,7 +59,10 @@ h1{
     margin-left:15em
   }  
 
-  .viewpassword{
+  .showpassword{
     margin-top: 5em;
-    margin-left: 3em;
+    margin-left: 4em;
+    background-color: #000502;
+    color: whitesmoke;
+    
   }
